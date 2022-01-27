@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Poppins:wght@400;600;700&display=swap');
+
+.projects {
+    background-color: rgb(167, 164, 164);
+    font-family: 'Poppins', 'sans-serif';
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    border: 7px solid black;
+}
+
+.projects h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin-top: 4rem;
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    border: 4px solid #000;
+    padding: 10px;
+    border: 4px solid white;
+    border-radius: 10%
+}
+
+.card img {
+    width: 30%;
+    border-radius: 50%
+}
+
+.card p {
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+.card h5 {
+    font-size: 12px;
+    line-height: 25px;
+    color: white;
+}
